@@ -1,0 +1,23 @@
+npm create vite@latest
+
+npm install --> node modules
+
+npm i tailwindcss postcss autoprefixer -D
+
+npx tailwindcss init -p --> arquivo de configuração 
+
+extensões necessárias: 
+GraphQL ,Tailwind CSS IntelliSense,PostCSS Language Support
+
+https://graphcms.com/
+
+do Graphql:
+query / mutation 
+query = buscar dados 
+mutation = criar/alterar ou deletar dados
+
+usar Apollo no lugar de axios
+https://svg2jsx.com/ --> para logo ou imagens svg
+https://phosphoricons.com/ -> para icones com: npm i phosphor-react
+
+datas: pode ser o dayjs mas nessa usa-se: npm i date-fns
