@@ -26,3 +26,5 @@ https://vimejs.com/ --> para player de videos (não suporta react 18 , porque na
 
 
 npm i react-router-dom
+
+npm i classnames -->para colocar condições mais performatico
