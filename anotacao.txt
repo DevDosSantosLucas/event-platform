@@ -21,3 +21,8 @@ https://svg2jsx.com/ --> para logo ou imagens svg
 https://phosphoricons.com/ -> para icones com: npm i phosphor-react
 
 datas: pode ser o dayjs mas nessa usa-se: npm i date-fns
+
+https://vimejs.com/ --> para player de videos (não suporta react 18 , porque nao suporta o SSR , mas só colocar --force no npm para instalação funcionar. npm i @vime/core @vime/react --force
+
+
+npm i react-router-dom

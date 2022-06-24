@@ -1,8 +1,9 @@
-import { gql, useQuery } from '@apollo/client'
-import { useEffect, useState } from 'react'
-import { Header } from './components/Header';
+
+import { Router } from './Router';
+
+import { ApolloProvider } from '@apollo/client'
 import { client } from './lib/apollo'
-import { Event } from './pages/Event';
+import { BrowserRouter } from 'react-router-dom';
 
 // const GET_LESSONS_QUERY = gql`
 //   query{
@@ -32,7 +33,12 @@ function App() {
   // console.log(data)
 
   return (
-    <Event />
+    <ApolloProvider client = {client}>
+      <BrowserRouter >
+      <Router />
+      </BrowserRouter>
+    </ApolloProvider>
+    
 
   )
 }
