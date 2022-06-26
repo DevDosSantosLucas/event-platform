@@ -28,3 +28,7 @@ https://vimejs.com/ --> para player de videos (não suporta react 18 , porque na
 npm i react-router-dom
 
 npm i classnames -->para colocar condições mais performatico
+https://www.graphql-code-generator.com/
+https://www.graphql-code-generator.com/docs/guides/react#apollo-and-urql
+npm install @graphql-codegen/typescript @graphql-codegen/typescript-operations @graphql-codegen/typescript-react-apollo -D
+npm install @graphql-codegen/cli
